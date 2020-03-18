@@ -1,0 +1,15 @@
+###DO NOT DELETE!
+# Changing python PATH. 
+export PATH=/usr/bin:$PATH
+# Changing current directory
+cd /home/workspace/
+###
+
+alias l='ls -lah'
+alias 'cd..'='cd ..'
+
+export MYVIMRC='/home/workspace/.vimrc'
+export VIMINIT='source $MYVIMRC'
+
+git config --global user.email "ivi3001@yahoo.de"
+

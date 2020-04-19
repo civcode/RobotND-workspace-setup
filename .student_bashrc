@@ -5,6 +5,7 @@ export PATH=/usr/bin:$PATH
 cd /home/workspace/
 ###
 
+alias ll='ls -CF'
 alias l='ls -lah'
 alias 'cd..'='cd ..'
 

@@ -16,3 +16,8 @@ export VIMINIT='source $MYVIMRC'
 
 git config --global user.email "ivi3001@yahoo.de"
 
+# configure xterm appearance
+xrdb /home/workspace/.Xresources
+
+# make bash autocomplete write every suggestion in a separate line
+bind 'set completion-display-width 0'

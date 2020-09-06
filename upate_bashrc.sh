@@ -18,7 +18,9 @@ echo "alias ss='source devel/setup.bash'" >> $PATH
 #export VIMINIT='source $MYVIMRC'
 
 echo "" >> $PATH
-echo 'git config --global user.email "ivi3001@yahoo.de"' >> $PATH
+#echo 'git config --global user.email "ivi3001@yahoo.de"' >> $PATH
+echo "eval git config --global user.email "\"ivi3001@yahoo.de"\"" >> $PATH
+echo "eval git config --global user.name  "\"civ"\"" >> $PATH
 
 # configure xterm appearance
 #xrdb /home/workspace/.Xresources

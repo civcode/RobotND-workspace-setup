@@ -16,6 +16,10 @@ export VIMINIT='source $MYVIMRC'
 
 git config --global user.email "ivi3001@yahoo.de"
 
+# use vim as editor
+export VISUAL=vim
+export EDITOR="$VISUAL"
+
 # configure xterm appearance
 xrdb /home/workspace/.Xresources
 

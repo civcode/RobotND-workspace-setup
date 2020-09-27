@@ -25,3 +25,7 @@ xrdb /home/workspace/.Xresources
 
 # make bash autocomplete write every suggestion in a separate line
 bind 'set completion-display-width 0'
+
+export OPENCV_TEST_DATA_PATH=/home/chris/opencv/opencv_extra/testdata
+
+

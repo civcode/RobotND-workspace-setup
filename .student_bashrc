@@ -9,7 +9,7 @@ alias ll='ls -CF'
 alias l='ls -lah'
 alias 'cd..'='cd ..'
 
-alias ss='source devel/setup.bash'
+alias sss='source devel/setup.bash'
 
 export MYVIMRC='/home/workspace/.vimrc'
 export VIMINIT='source $MYVIMRC'

@@ -11,12 +11,12 @@ alias 'cd..'='cd ..'
 
 #alias sss='source devel/setup.bash'
 sss() {
-   echo "sourcing devel/setup.bash"
-   source devel/setup.bash
-   if [ -f src/scripts/remote_init.sh ]; then
-      echo "sourcing src/scripts/remote_init.sh"
-      source src/scripts/remote_init.sh
-   fi
+  echo "sourcing devel/setup.bash"
+  source devel/setup.bash
+  if [ -f src/scripts/remote_init.sh ]; then
+    echo "sourcing src/scripts/remote_init.sh"
+    source src/scripts/remote_init.sh
+  fi
 }
 
 export MYVIMRC='/home/workspace/.vimrc'

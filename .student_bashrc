@@ -8,6 +8,8 @@ cd /home/workspace/
 alias ll='ls -CF'
 alias l='ls -lah'
 alias 'cd..'='cd ..'
+alias tmux='tmux -2'
+alias civ-tegrastats='tegrastats | grep GR3D_FREQ'
 
 source /opt/ros/melodic/setup.bash
 #alias sss='source devel/setup.bash'
@@ -36,5 +38,14 @@ xrdb /home/workspace/.Xresources
 bind 'set completion-display-width 0'
 
 export OPENCV_TEST_DATA_PATH=/home/chris/opencv/opencv_extra/testdata
+
+# start tmux when connecting via ssh
+if [[ -n $SSH_CONNECTION ]] ; then
+    echo "I'm logged in remotely"
+    if [[ -z "${TMUX}" ]] ; then
+        # start tmux when env variable $TMUX is not set
+        tmux 
+    fi
+fi
 
 

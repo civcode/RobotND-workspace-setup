@@ -11,6 +11,11 @@ alias 'cd..'='cd ..'
 alias tmux='tmux -2'
 alias civ-tegrastats='tegrastats | grep GR3D_FREQ'
 
+civ-df () {
+    df -h | head -n 1
+    df -h | grep nvme0n1p2
+}
+
 source /opt/ros/melodic/setup.bash
 #alias sss='source devel/setup.bash'
 sss() {

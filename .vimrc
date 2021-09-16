@@ -29,3 +29,5 @@ set backspace=indent,eol,start	" Backspace behaviour
 autocmd InsertEnter * set cul
 autocmd InsertLeave * set nocul
 
+" Turn on color syntax "
+syntax on

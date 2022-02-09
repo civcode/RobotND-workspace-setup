@@ -9,7 +9,8 @@ alias ll='ls -CF'
 alias l='ls -lah'
 alias 'cd..'='cd ..'
 alias tmux='tmux -2'
-alias civ-tegrastats='tegrastats | grep GR3D_FREQ'
+#alias civ-tegrastats='tegrastats | grep GR3D_FREQ'
+alias civ-tegrastats="tegrastats | cut -d ' ' -f 13-14"
 
 civ-df () {
     df -h | head -n 1

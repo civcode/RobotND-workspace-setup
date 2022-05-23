@@ -26,8 +26,12 @@ set undolevels=1000	" Number of undo levels
 set backspace=indent,eol,start	" Backspace behaviour
 
 " change cursor in insert mode "
-autocmd InsertEnter * set cul
-autocmd InsertLeave * set nocul
+" add horizontal line in insert mode
+" autocmd InsertEnter * set cul
+" autocmd InsertLeave * set nocul
+" turn cusor to line in insert mode
+let &t_SI = "\e[6 q"
+let &t_EI = "\e[2 q"
 
 " Turn on color syntax "
 syntax on

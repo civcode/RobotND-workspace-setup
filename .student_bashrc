@@ -33,7 +33,7 @@ export VIMINIT='source $MYVIMRC'
 
 git config --global user.email "ivi3001@yahoo.de"
 
-# use vim as editor
+# use vim as editor (git and other apps)
 export VISUAL=vim
 export EDITOR="$VISUAL"
 

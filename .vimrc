@@ -35,3 +35,6 @@ let &t_EI = "\e[2 q"
 
 " Turn on color syntax "
 syntax on
+
+" Fix colors in tmux "
+set background=dark

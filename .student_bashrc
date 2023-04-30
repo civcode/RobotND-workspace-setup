@@ -5,8 +5,12 @@ export PATH=/usr/bin:$PATH
 cd /home/workspace/
 ###
 
-alias ll='ls -CF'
-alias l='ls -lah'
+#alias ll='ls -CF'
+#alias l='ls -lah'
+
+# each element on new line
+alias l='ls -1'
+
 alias 'cd..'='cd ..'
 alias tmux='tmux -2'
 #alias civ-tegrastats='tegrastats | grep GR3D_FREQ'

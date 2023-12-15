@@ -6,7 +6,7 @@ cd /home/workspace/
 ###
 
 #alias ll='ls -CF'
-#alias l='ls -lah'
+alias l='ls -lah'
 
 # each element on new line
 alias l='ls -1'
